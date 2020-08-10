@@ -137,7 +137,6 @@ body {
 				position: fixed;
 				top: 20px;
 				right: -120vw;
-				right: -100vw;
 				padding-inline-start: 0px;
 				padding-top: 104px;
 				margin: 0px;
@@ -719,6 +718,7 @@ body {
 		}
 
 		.feedback_form_btn {
+			display: table;
 			width: fit-content;
 			margin: 45px auto 0 auto;
 			padding: 13px 70px;
