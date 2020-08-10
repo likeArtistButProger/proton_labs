@@ -136,7 +136,7 @@ body {
 			#nav_list {
 				position: fixed;
 				top: 20px;
-				-ms-right: -120vw;
+				right: -120vw;
 				right: -100vw;
 				padding-inline-start: 0px;
 				padding-top: 104px;
@@ -351,7 +351,7 @@ body {
 		}
 
 		.get_free_quote_btn {
-			-ms-display: table;
+			display: table;
 			width: fit-content;
 			margin: 0 auto;
 			margin-top: 30px;
@@ -526,7 +526,8 @@ body {
 	}
 
 	.price_list_get_quote_btn {
-		width: 50%;
+		display: table;
+		width: fit-content;
 		margin: 0 auto;
 		margin-top: 17px;
 		padding: 13px 53px;
@@ -648,7 +649,7 @@ body {
 	}
 
 	.portfolio_footer_btn {
-		-ms-display: table;
+		display: table;
 		width: fit-content;
 		padding: 13px 69px;
 		margin: 0 auto;
