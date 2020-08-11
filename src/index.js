@@ -1,4 +1,5 @@
 import Glide from "@glidejs/glide";
+import "core-js/stable";
 
 let onClickMenuEnabled = false;
 let active_nav_el = null;
