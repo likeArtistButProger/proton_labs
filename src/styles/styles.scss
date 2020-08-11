@@ -1633,15 +1633,15 @@ body {
 			}
 
 			.nav {
-				margin-right: 152px;
+				//margin-right: 152px;
 
 				#nav_list {
 					padding-top: 83px;
-					padding-right: 152px;
+					//padding-right: 152px;
 
 					.nav_el {
 						padding: 0px 10px;
-						margin-right: 0;
+						margin-right: 116px;
 
 						.nav_link {
 							font-size: 36px;
@@ -1650,7 +1650,7 @@ body {
 					}
 
 					.nav_el:last-child {
-						margin-right: 0;
+						margin-right: 152px;
 					}
 
 	 				.active_nav::before {
