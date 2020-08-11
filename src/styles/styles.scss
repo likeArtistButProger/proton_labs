@@ -694,6 +694,7 @@ body {
 		}
 
 		.feedback_form_input {
+			overflow: hidden;
 			width: 70%;
 			padding: 19px 30px;
 			margin: 20px auto 0 15px;
@@ -1083,7 +1084,6 @@ body {
 			}
 
 			.nav {
-				margin-right: 129px;
 
 				#menu_btn {
 					display: none;
@@ -1101,16 +1101,21 @@ body {
 					width: 100%;
 					height: initial;
 					padding-top: 57px;
-					padding-right: 127px;
+				 	//padding-right: 127px;
 
 					.nav_el {
 						padding: 0px 10px;
-
+						margin-right: 62px;
 						.nav_link {
 							font-size: 23px;
 							line-height: 34px;
 						}
 					}
+
+					.nav_el:last-child {
+						margin-right: 127px;
+					}
+
 	 				.active_nav::before {
 	 					content: '';
 	 					position: absolute;
@@ -1636,11 +1641,16 @@ body {
 
 					.nav_el {
 						padding: 0px 10px;
+						margin-right: 0;
 
 						.nav_link {
 							font-size: 36px;
 							line-height: 34px;
 						}
+					}
+
+					.nav_el:last-child {
+						margin-right: 0;
 					}
 
 	 				.active_nav::before {
